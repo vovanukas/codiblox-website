@@ -1,0 +1,43 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+pageRef = "/"
+weight = 1
+
+[[main]]
+weight = 2
+name = "Tutorials"
+
+[[main]]
+parent = "Tutorials"
+name = "All Tutorials"
+pageRef = "/tutorials"
+
+[[main]]
+parent = "Tutorials"
+name = "Python Tutorials"
+pageRef = "/categories/python-tutorials/"
+
+[[main]]
+name = "About"
+pageRef = "/about"
+weight = 3
+
+[[main]]
+name = "Contact"
+pageRef = "/contact"
+weight = 4
+
+
+# footer menu
+[[footer]]
+name = "About"
+pageRef = "/about"
+weight = 1
+
+[[footer]]
+name = "Terms of Service"
+pageRef = "/terms-of-service"
+weight = 2

@@ -1,0 +1,14 @@
+{
+  "main": [
+    {
+      "name": "facebook",
+      "icon": "fab fa-facebook",
+      "link": "https://www.facebook.com/codiblox"
+    },
+    {
+      "name": "instagram",
+      "icon": "fab fa-instagram",
+      "link": "https://www.instagram.com/codiblox"
+    }
+  ]
+}
