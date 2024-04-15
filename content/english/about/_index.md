@@ -1,6 +1,6 @@
 ---
 title: "Hi, my name is Vladimiras!"
-meta_title: "About"
+meta_title: "About | Codiblox"
 description: "about codiblox programming school and about vladimiras"
 image: "/images/vladimiras-avatar.svg"
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: "Blog Posts"
-meta_title: ""
-description: "this is meta description"
+meta_title: "All Blog Posts | Codiblox"
+description: "All Blog Posts"
 draft: true
 ---

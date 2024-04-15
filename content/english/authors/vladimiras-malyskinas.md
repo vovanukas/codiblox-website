@@ -2,7 +2,7 @@
 title: Vladimiras Malyskinas
 email: malvladimiras@gmail.com
 image: "/images/vladimiras-avatar.svg"
-description: this is meta description
+description: Vladimiras Malyskinas
 social:
   - name: linkedin
     icon: fa-brands fa-linkedin
