@@ -1,0 +1,83 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Tutorials",
+      "path": "[[workspace]]/content/english/tutorials"
+    },
+    {
+      "title": "Sections",
+      "path": "[[workspace]]/content/english/sections"
+    },
+    {
+      "title": "Pages",
+      "path": "[[workspace]]/content/english/pages"
+    },
+    {
+      "title": "Contact",
+      "path": "[[workspace]]/content/english/contact"
+    },
+    {
+      "title": "Blog",
+      "path": "[[workspace]]/content/english/blog"
+    },
+    {
+      "title": "Authors",
+      "path": "[[workspace]]/content/english/authors"
+    },
+    {
+      "title": "About",
+      "path": "[[workspace]]/content/english/about"
+    }
+  ],
+  "frontMatter.git.enabled": false
+}
