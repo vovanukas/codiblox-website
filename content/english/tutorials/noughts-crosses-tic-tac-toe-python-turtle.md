@@ -1,7 +1,8 @@
 ---
 title: Noughts and Crosses / Tic-Tac-Toe with Python Turtle
-meta_title: ""
+meta_title: "Noughts and Crosses / Tic-Tac-Toe with Python Turtle"
 description: Noughts and Crosses / Tic-Tac-Toe with Python Turtle
+summary: You probably know how to play Noughts and Crosses (or Tic-Tac-Toe). The game might seem simple on paper but let's try to recreate it using the `Turtle` module in Python!
 date: 2024-04-15T03:55:40.656Z
 image: /images/noughts-and-crosses.svg
 categories:
