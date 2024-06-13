@@ -4,6 +4,15 @@
       class="from-body to-theme-light dark:from-darkmode-body dark:to-darkmode-theme-light rounded-2xl bg-gradient-to-b px-8 py-14">
       <h1>{{ i18n (printf "%s" (lower .Title)) | default .Title | title }}</h1>
       {{ partial "components/breadcrumb" (dict "Context" . "Class" "mt-6") }}
+      <div>
+        <h3>Stay on Top of New {{ .Title }}</h3>
+        <p>Subscribe to our newsletter and never miss out on the latest {{ .Title }}, tips, and resources.</p>
+        <p>Get exclusive content and stay ahead in your coding journey.</p>
+        <style>
+          .inline-container {margin:auto;}
+        </style>
+        <script async src="https://eocampaign1.com/form/3eea1fa2-28d8-11ef-85aa-ada101149a79.js" data-form="3eea1fa2-28d8-11ef-85aa-ada101149a79"></script>
+      </div>
     </div>
   </div>
 </section>
