@@ -1,8 +1,8 @@
 ---
-title: Noughts and Crosses / Tic-Tac-Toe with Python Turtle
-meta_title: "Noughts and Crosses / Tic-Tac-Toe with Python Turtle"
-description: Noughts and Crosses / Tic-Tac-Toe with Python Turtle
-summary: You probably know how to play Noughts and Crosses (or Tic-Tac-Toe). The game might seem simple on paper but let's try to recreate it using the `Turtle` module in Python!
+title: Noughts and Crosses / Tic Tac Toe with Python Turtle
+meta_title: "Noughts and Crosses / Tic Tac Toe with Python Turtle"
+description: Noughts and Crosses / Tic Tac Toe with Python Turtle
+summary: You probably know how to play Noughts and Crosses (or Tic Tac Toe). The game might seem simple on paper but let's try to recreate it using the `Turtle` module in Python!
 date: 2024-04-15T03:55:40.656Z
 image: /images/noughts-and-crosses.svg
 categories:
@@ -22,11 +22,11 @@ This tutorial was adapted from [Free Python Games by Grant Jenks.](https://grant
 {{< /notice >}}
 
 
-You probably know how to play Noughts and Crosses (or Tic-Tac-Toe). It is a two-player game, which is simple on paper - two players take turns marking a three-by-three grid with X's and O's. The first player to put three of their markings in a horizontal, vertical or diagonal row - wins! As I have said before, the game might seem simple on paper but let's try to recreate it using the `Turtle` module in Python!
+You probably know how to play Noughts and Crosses (or Tic Tac Toe). It is a two-player game, which is simple on paper - two players take turns marking a three-by-three grid with X's and O's. The first player to put three of their markings in a horizontal, vertical or diagonal row - wins! As I have said before, the game might seem simple on paper but let's try to recreate it using the `Turtle` module in Python!
 
 ### Planning
 
-First, we need to plan our program. We can do that by playing Noughts and Crosses in our imagination - let's start!
+First, we need to plan our program. We can do that by playing Tic Tac Toe in our imagination - let's start!
 
 {{< tabs >}}
 {{< tab "Step 0" >}}
@@ -35,7 +35,7 @@ First, we need to plan our program. We can do that by playing Noughts and Crosse
 
 **Remember, in this part, we are only planning - not programming!**
 
-What is the first thing we do on a piece of paper when we want to play Noughts and Crosses? 
+What is the first thing we do on a piece of paper when we want to play Tic Tac Toe? 
 
 Try to come up with your own answer and then head to **Step 1**!
 
@@ -65,14 +65,14 @@ Inside the grid, X's and the O's are drawn. But let's think in detail, how shoul
 
 #### Each mark should be placed one after another, where the player clicks.
 
-In Noughts and Crosses the players take turns to draw their marks. Although we cannot draw on our computer screen, we will track where each player clicks.
+In Tic Tac Toe the players take turns to draw their marks. Although we cannot draw on our computer screen, we will track where each player clicks.
 
 {{< /tab >}}
 {{< /tabs >}}
 
 And that is it! If you have gone through the steps, you should know the plan already. But you can open the menu below to look at it in full.
 
-{{< accordion "Our plan for Noughts and Crosses" >}}
+{{< accordion "Our plan for Tic Tac Toe" >}}
 
 1. Create the playing grid.
 2. Draw an X and draw an O.
@@ -380,7 +380,7 @@ window.onclick(draw)
 
 #### Don't allow the player to put symbols on top of each other
 
-Currently, the X and the O can be placed anywhere - even on top of one another. This is not how the game of Noughts and Crosses goes, let's fix that.
+Currently, the X and the O can be placed anywhere - even on top of one another. This is not how the game of Tic Tac Toe goes, let's fix that.
 
 Once again, let's remember what we can use to check something in Python - the `if` statement. The question is: what do we check? We need to check which slots are already filled with a symbol but to do that, we must first record where the player has put a symbol. For that, we will use a list.
 
@@ -467,6 +467,6 @@ Using the `.color()`, `.pensize()` commands we can change the colour and the lin
 
 ### Conclusion
 
-In conclusion, Noughts and Crosses might be a simple game that can be played with just a pen and paper but creating it in Python using the `Turtle` is not that simple. In this tutorial, we have successfully created a basic Noughts and Crosses game using Python, which can be played by clicking on the screen. The final code still has plenty of things that can be added - you just need to think about it.
+In conclusion, Tic Tac Toe might be a simple game that can be played with just a pen and paper but creating it in Python using the `Turtle` is not that simple. In this tutorial, we have successfully created a basic Tic Tac Toe game using Python, which can be played by clicking on the screen. The final code still has plenty of things that can be added - you just need to think about it.
 
 I hope you had fun tagging along and learned something new!
