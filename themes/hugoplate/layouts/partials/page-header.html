@@ -4,7 +4,7 @@
       class="from-body to-theme-light dark:from-darkmode-body dark:to-darkmode-theme-light rounded-2xl bg-gradient-to-b px-8 py-14">
       <h1>{{ i18n (printf "%s" (lower .Title)) | default .Title | title }}</h1>
       {{ partial "components/breadcrumb" (dict "Context" . "Class" "mt-6") }}
-      {{ if eq .Params.Type "tutorial" }}
+      {{ if in (lower .Title) "tutorials" }}
         <div>
           <h3>Stay on Top of New {{ .Title }}</h3>
           <p>Subscribe to our newsletter and never miss out on the latest {{ .Title }}, tips, and resources.</p>

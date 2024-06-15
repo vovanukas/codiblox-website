@@ -4,7 +4,7 @@
     <!-- logo -->
     <div class="order-0">
       <!-- navbar brand/logo -->
-      <a class="navbar-brand block" href="{{ site.Home.RelPermalink }}">
+      <a class="navbar-brand block" {{ if ne .Page.Params.Type "landing_page" }}href="{{ site.Home.RelPermalink }}"{{ end }}>
         {{ partial "logo" }}
       </a>
     </div>
@@ -26,6 +26,7 @@
     </label>
     <!-- /navbar toggler -->
 
+    {{ if ne .Page.Params.Type "landing_page" }}
     <!-- main navbar -->
     <ul
       id="nav-menu"
@@ -125,7 +126,6 @@
       {{ partial "components/language-switcher" (dict "Context" . "Class" "mr-5 pl-2 py-1 dark:bg-darkmode-theme-light rounded") }}
       {{ partial "components/theme-switcher" (dict "Class" "mr-5") }}
 
-
       <!-- navigation btn -->
       {{ if site.Params.navigation_button.enable }}
         <a
@@ -134,6 +134,8 @@
           {{ site.Params.navigation_button.label }}
         </a>
       {{ end }}
+
     </div>
+    {{ end }}
   </nav>
 </header>

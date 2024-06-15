@@ -5,10 +5,13 @@
         <!-- navbar brand/logo -->
         <a
           class="navbar-brand inline-block"
-          href="{{ site.Home.RelPermalink }}">
+          {{ if ne .Page.Params.Type "landing_page" }}
+          href="{{ site.Home.RelPermalink }}"
+          {{ end }}>
           {{ partial "logo" }}
         </a>
       </div>
+      {{ if ne .Page.Params.Type "landing_page" }}
       <div class="lg:col-6 mb-8 text-center lg:mb-0">
         <ul>
           {{ range site.Menus.footer }}
@@ -54,4 +57,5 @@
       </p>
     </div>
   </div>
+  {{ end }}
 </footer>
