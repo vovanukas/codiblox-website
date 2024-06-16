@@ -8,6 +8,7 @@
         {{ partial "logo" }}
       </a>
     </div>
+    {{ if ne .Page.Params.Type "landing_page" }}
     <!-- navbar toggler -->
     <input id="nav-toggle" type="checkbox" class="hidden" />
     <label
@@ -26,7 +27,6 @@
     </label>
     <!-- /navbar toggler -->
 
-    {{ if ne .Page.Params.Type "landing_page" }}
     <!-- main navbar -->
     <ul
       id="nav-menu"
