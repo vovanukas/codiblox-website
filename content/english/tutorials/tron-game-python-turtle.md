@@ -210,7 +210,7 @@ By now, we should have the following:
 
 But the player is not moving yet, so let's do that!
 
-We have two loops in Python - finite `for` loops and infinite `while True:` loops. Since don't know when exactly our game needs to end, we will have to use the infinite loop - `while True:`. Since it's a loop, let's imagine we are stepping to a new tile - let's digest what will need to happen each time we take a step:
+We have two loops in Python - finite `for` loops and infinite `while True:` loops. Since we don't know when exactly our game needs to end, we will have to use the infinite loop - `while True:`. Since it's a loop, let's imagine we are stepping to a new tile - let's digest what will need to happen each time we take a step:
 
 1. Check whether we have been to this tile before or if we have hit the edge of the screen.
     1. If we have - we will need to end the game, as we have lost. Otherwise, continue on.
