@@ -348,7 +348,7 @@ while True:
 
 Great work working through this Pong tutorial using Python Turtle! If you have followed along, you should have a nice game that you can play with two players, but if not - don't worry here is a demo and the source code:
 
-{{< notice "warn" >}}
+{{< notice "warning" >}}
 
 Since Trinket (the online coding platform) is limited, some commands had to be commented out.
 
