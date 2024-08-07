@@ -46,6 +46,14 @@
               </a>
             {{ end }}
           {{ end }}
+          {{ with .button2 }}
+          {{ if .enable }}
+            <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
+              {{ .label }}
+              <i class="fa fa-arrow-right pl-2"></i>
+            </a>
+          {{ end }}
+        {{ end }}
         </div>
       </div>
     </div>

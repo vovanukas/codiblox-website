@@ -17,6 +17,10 @@ features:
       enable: true
       label: "Start Now For $49"
       link: "https://codiblox.thinkific.com/enroll/3024432?price_id=3885829"
+    button2:
+      enable: true
+      label: "Free Preview"
+      link: "https://codiblox.thinkific.com/enroll/3024432?et=free_trial"
 
 # Banner
 banner:
